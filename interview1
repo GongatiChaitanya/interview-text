@@ -1,0 +1,61 @@
+If i give all these parameters bucket name and prefix, suffix, if required based those conditions any file is uploaded to buckets then respective lambda will be trigger based on that.
+
+Int:)what the lambda will do?
+
+Bava:) So inside lambda header we have event, context parameters so that event eill get all the S3 information bucket liked what is the objects name and what is the bucket name when this
+event was created either we need to pass that event to get the bucket nmae and key name and I willage boto3 again here boto3.client(S3) so that the S3 client will have so many methods
+like download file, download object, upload file, upload object , read the data on the way someyhing like that in over case what i did is S3 client.download file ther are give 
+parameters like that what is the download path that is in lambda will have temp as a folder to temperpory folder to store the temperory files and we need to give the respective source
+bucket name and source file name based on file will be doenload on the tenth folder tenth folder on the lambda i will try to consume that like i will path that one with open that
+fill path in read formet then i will json that load once i read the contect file if i have a
+example:)In our case i need to multiple columns into one new columns for the target file so there i will the first name and last name and then add to irush for the full name so the once
+i got the output json file i will use sending S3.client upload file object there i need to give three parameters, what is the target folder bucket name and file path followed by the
+created output file.
+
+INT:) Suppose in a file you need to do a quality check for
+example:) IT as a ten columns and then we need to verify that ten columns are present in the file or not so how you can do the data quality chech ?
+
+Bava:) Once we need that file in JSON liberery import JSON.load then we can se  how column are there like those are it will become as a keys like a dictionary key and valuve so we
+can get the keys dictionary.keys so that we will see all the columns inside that json file and also we can count of that distionary.key so we get the total count of that columns
+or else i didn't give it in lambda but we can pandas as well that if use pandas dataframe these also we can see were as columns avaible respective columns availble are not but 
+if you want use pandas we need to upload the file as a zip file to the lambda becauselambda won't suppot automatically pandas libary we need to provide that pandas libary supportly
+to that lambda.
+
+INT:) So suppose the files are huge right some file are coming and then you do more how many columns are there that time you need to create a metadata you want to know what is the
+structure of the data file so how you can do that in AWS?
+
+Bava:) We can use glue colar for glue colar we need to provide that S3 bucket path so for 
+Example:) Like inbound is a folder that inside inbound we have all the text files or in another folder all the parked files availble so that we need to provide that entair path to 
+glue colar that colar will pass metadata and schame of that particular file and give all the columns in that files.
+
+Int:) Where the metadata is stored?
+
+Bava:) It will stored in the glue tables, catalog.
+
+Int:) How do you use glue catalog which is the other service were any using this catalog?
+
+Bava:) We can using the glue jar and also we can using the athiley while querying the data , (we cannot use glue catalog inside the lambda).
+
+Int:)  Athiley use for this glue catalog write so when your coding the data to do you need know the data athiley?
+
+Bava:) No, we already wenuse the glue tables to query the data.
+
+Int:) So data will still be in S3 bucket still you can query the data in athiley?
+
+Bava:) Yes.
+
+Int :) What is experiece in glue ?
+
+Bava:) I recently started i know glue has two types python shell and puspark two are avalible i know how to use pythonshell because in one of the project the lambda get time out 
+because of 15 min of timeout so that why we moved the same code pythonshell code in glue pythonshell with minimium changes so that glue does not have that time out issue so use 
+that glue pythonshell but for the pyspark i use directly like using glue table i read the data and transform them and put it in S3 bucket like using workflow like in glue we code
+automatically. something like that physpark.dataframe somthing like that so i am still learning that way as of know.
+
+Imt:) So glue actually it generayes the code by itself by python or scala program will generated but then you have to understand that code modifiy for that transformation you need to apply?
+
+Bava:) For that we need spark that we can use i have technical knowledge little bit like dynamic frames and spark data frame in glue we will use dynamic frames for the some other
+transformation and if you don't that we need that transformation the dynamic we need to convert the dynamic data frame to spark data frame then we can use respective transformation
+again but end of the day while loading the file while uploading init we need to use dynamic frame in between we can convert them to spark data frames we need convert back to dynamic frames.
+
+Int:)  And then after the process is done you will move them these are already builtin transformations avaibility by glue the prolity like many transformations to know that right
+by study we can move these transformation then after that loading this data 
