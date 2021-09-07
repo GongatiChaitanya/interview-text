@@ -58,4 +58,150 @@ transformation and if you don't that we need that transformation the dynamic we 
 again but end of the day while loading the file while uploading init we need to use dynamic frame in between we can convert them to spark data frames we need convert back to dynamic frames.
 
 Int:)  And then after the process is done you will move them these are already builtin transformations avaibility by glue the prolity like many transformations to know that right
-by study we can move these transformation then after that loading this data 
+by study we can move these transformation then after that loading this data into some database or somewhere?
+
+Bava:)Yes, So has a poc at tried loading data to dynamicdb able to age bookmark enable like whenever run the glue job everytime we shouldnot load all the past data which load only new data
+for that we need to enable that bookmark enable so that it will load only new data when it is availble.
+
+Int:)We assume dynamoDB bookmark to track those status of loading?
+
+Bava:)Yes
+
+Int:)What is loaded and what is not loaded? But this data and entire data that you have process into are you loading the same to Redshift, RDS, are you are just put in a back in
+to another S3 bucket?
+
+Bava:) Yeah, i tried putting back into S3 bucket, in the sameway i have seen spray.upload dynamic frame these we need provide the respective database details like hostname, username,
+and password and will those thing so that output file will be load into respective subas well. But i didnot get a chance pratically ues that one .I have seen some videos and i have 
+some technical knowledge on that.
+
+Int:)Which editor are you using glue?
+
+Bava:)Phycharm
+
+Int:)Internal upload that file to glue?
+
+Bava:)Yeah, We have pipeline for that for local and develop coding in Phycharm in my local then i will get command to the big bucket then these is some another learn who will create the 
+pipeline like when ever any changes in the big bucket jankins pipes will be triggered using webhuk. then that will create respective AWS services in the colud formation in that 
+way i uploading my S3 file tp S3 bucket, and that huke file will be given in the glue jar.
+
+Int:)Have you has an worked on the any of RDS database or Redshift?
+
+Bava:)Yes, using lambda o am able to insert the data to using pi my scale liberary RDS database and i know how to insert the data how to check where the query are property inserted
+or not but i donot know complex querys> I worked on RDS database> I that one i use pinyscale.
+
+Int:)Which version of RDS?
+
+Bava:)I do not get choice to see the all the thing from strach already existingconnection details so i just used that connection details to insert the data like view the data.
+
+Int:) What is over part like which service your working on the project?
+
+Bava:)Mustly it is ETL as you said extracting data from inside cloud only any data form s3 bucket or database like RDS and transform them may be using lambda (or) gluejobs based 
+on the requirement and uploading them to again back to S3 bucket or another data base so that is my day to day responsibility mostly.
+
+Int:)So any are working on the w2 project?
+
+Bava:) Yes, Lambda, S3, IAM, gluejobs this are mainly services which are use so time as a cloud formation as well but still i am learning all other services as well>
+
+Int:)What can you do in step function?
+
+Bava:)I use step fuctions to arcurate like for
+example:)Wehave multiple lambda functions to trigger so whenever any file is uploaded to S3 bucket then we are using the everbridge to trigger the step funtion inside the function I
+have two lambdas one lambdas is pass the lambda and another lambda is to dumb the data to datatype. so using step fuctions we can put all the step in order we can have any depanding
+we can put them in step funtion. In one of the project used this two lambdas in step functions and use S3 bucket as a event trigger.
+
+Int:)What is the statemachine due you know?
+
+Bava:) Step fuction and statemachine both are some which is to crechicate the AWS services.
+
+Int:)Can you create a work flow so ypu name the particular workflow is statemachine these can be several statemachine in the stepfunction?
+
+Bava:)Might be, I need to learn more on that i need to explore more on that bot use case IAM using on stepfuction inside the stepfunction using two lambdas those are 2nd lambda 
+should trigger using after first lambda that is the difference that why ia am using step function in our case.
+
+Int:)i mean lamda which language you write the code?
+
+Bava:)python 3.7
+
+Int:) apachi A4?
+
+bava:)That is also to run the jobs i beleave some dogs will be there but i didnot  have change to work on it dras file to use it a similar to stepfunctions i beleave it like work 
+flow only howto run the jobs and we can see the log inside that.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
