@@ -17,7 +17,13 @@ class BinaryTree(object):
    def print_tree(self, traversal type):
      if traversal_type =="preorder":
         return self.preorder_print(tree.root, "")
-        
+      
+      elif traversal type =="inorder":
+           return self.inorder print(tree.root, "")
+           
+       elif traversal type =="postorder":
+           return self.postorder print(tree.root, "")
+         
       else:
           print("Traversal type" + str(traversal_type) + " is not supported.")
           return False
@@ -29,6 +35,25 @@ class BinaryTree(object):
             traversal = self.preorder_print(start.left, traversal)
             traversal= self.preorder print(start.right, traversal)
       return traversal
+      
+   
+   def Inorder_print(self, start, traversal):
+      """Left->Root->Right"""
+      if start:
+            traversal = self.inorder_print(start.left, traversal)
+            traversal = (str(start.value) + "-")
+            traversal= self.inorder_print(start.right, traversal)
+      return traversal
+      
+      
+   def postorder_print(self, start, traversal):
+      """Left->Right->Root"""
+      if start:
+            traversal = self.inorder_print(start.left, traversal)
+            traversal= self.inorder_print(start.right, traversal)
+            traversal = (str(start.value) + "-")
+    
+      return traversal  
    
                1
              /   \
@@ -47,6 +72,9 @@ tree.root.right.right = Node(7)
 tree.root.right.right.right = Node(8)
 
 print(tree.print treee("preorder"))
+print(tree.print treee("inorder"))
+print(tree.print treee("postorder"))
+
 
 
 
@@ -72,4 +100,15 @@ There are three common ways to tranverse them in depth-first order:in-order,pre-
 4. Traverse the right subtree by recursively calling the pre-order function.
 
 Pre-order: F,B,A,D,C,E,G,I,H.
+
+     In-order Traversal:
+     
+ 1. Check if the current node is empty/null.
+ 2. Traversal the left subtree by recursiverly calling the in-order function.
+ 3. Disply the data part of the root (or current node).
+ 4. Traversal the right subtree by recursively calling the in-order function.
+
+In-order: A,B,C,D,E,F,G,H,I.
+
+
 
