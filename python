@@ -112,3 +112,34 @@ In-order: A,B,C,D,E,F,G,H,I.
 
 
 
+
+
+
+
+
+CLASS 2:
+CLASS qUEUE(OBJECT):
+   def__init__(self):
+     self.items = []
+   def enqueue(seld, item)
+     self.items.insert(0, item)
+     
+   def dequeue(self):
+    if not self.items.pop()
+    
+   def is empty(self):
+      return len(self.items) == 0
+      
+   def peek(self):
+       if not self. is empty():
+         return self.items[-1]. value
+         
+   def __len__(self):
+       return self.size()
+       
+   def size(self):
+       return len(self.items)
+    
+
+
+
