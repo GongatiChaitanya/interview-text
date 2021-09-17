@@ -3,6 +3,31 @@ Fist class:::
 
 # CODING START:
 
+CLASS 2:
+CLASS qUEUE(OBJECT):
+   def__init__(self):
+     self.items = []
+   def enqueue(seld, item)
+     self.items.insert(0, item)
+     
+   def dequeue(self):
+    if not self.items.pop()
+    
+   def is empty(self):
+      return len(self.items) == 0
+      
+   def peek(self):
+       if not self. is empty():
+         return self.items[-1]. value
+         
+   def __len__(self):
+       return self.size()
+       
+   def size(self):
+       return len(self.items)
+    
+# class 1 coding:
+
 class Node(object):
  def_init__(self, value):
    self.value = value
@@ -23,7 +48,8 @@ class BinaryTree(object):
            
        elif traversal type =="postorder":
            return self.postorder print(tree.root, "")
-         
+       elif traversal type == "levelorder":
+           return self.levelorder_print(tree.root)
       else:
           print("Traversal type" + str(traversal_type) + " is not supported.")
           return False
@@ -54,6 +80,26 @@ class BinaryTree(object):
             traversal = (str(start.value) + "-")
     
       return traversal  
+  
+  #class 2 code:
+  
+    def levelorder_print (self, start) :
+         if start is None:
+            retuen
+         queue = Queue()
+         queue.enqueue(start)
+         
+         traversal = ""
+         while len(queue) > 0:
+             traversal += str(queue.peek ()) + "-"
+             node = queue.dequeue()
+             
+             if node.left:
+               queue.enqueue(node.left)
+             if node.right:
+                queue.enqueue(node.right)
+     return traversal
+  
    
                1
              /   \
@@ -117,29 +163,7 @@ In-order: A,B,C,D,E,F,G,H,I.
 
 
 
-CLASS 2:
-CLASS qUEUE(OBJECT):
-   def__init__(self):
-     self.items = []
-   def enqueue(seld, item)
-     self.items.insert(0, item)
-     
-   def dequeue(self):
-    if not self.items.pop()
-    
-   def is empty(self):
-      return len(self.items) == 0
-      
-   def peek(self):
-       if not self. is empty():
-         return self.items[-1]. value
-         
-   def __len__(self):
-       return self.size()
-       
-   def size(self):
-       return len(self.items)
-    
+
 
 
 
