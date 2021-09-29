@@ -32,3 +32,15 @@ Bava:) Yes
 Int:) If you have 12GB data on s3 you are going upload the 12gb data to dynamodb?
 
 Bava:) Yeah but we will compress it we take respective parameters like partience key entite name when it was inserted those are the basic 
+
+Int:) It fine know uploading thos ekind of gb per day db is good at do?
+
+Bava:) May in the term is not a good way but at these term to combine the product data along with invertory and passing file that is the way we are doing. may as you said in the long term 
+as your asking write know i am thinking that it should will be a problem beceause every record of each term it was 12gb of data inserting dynamodb which is duplicate of s3 bucket
+which is unnessary expansive to the team.
+
+Int:) So you have lambda like lambda setpfuctons?
+
+Bava:) YEs
+
+Int :) so what perpose uor using this term
