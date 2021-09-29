@@ -1,0 +1,34 @@
+int:)hi loknadh
+
+Bava:)Hi How are you?
+
+Int:) Introduce your salf and roles and responsbilitys?
+
+Bava:) I have working on python and AWS on more than 2 years or near by 2 years. my day to day responsbilitys is undersatnding the bussiness requiredments and also writing ETO skipts 
+using python using AWS services likes step fuctions, glue jobs, lambda, azam role and other servicesif need even gglue job as well and canasis some of the things and i have knowledge 
+on dynamodb and mysql database in the AWS as well it will use as a extate data form s3 bucketand transform them using only python and passing that file and inserting the data to dynamodb or
+mysql database those are things currently in am working on it.
+
+Int:)Can you explan your current project archistucture?
+
+Bava:)Yeh sure! currently i am working paul which is product agreegate layer the final intenece of this is to agreegate or combine thre entites like product, price and inventary
+entitys into one json file so that the third or vendor are consume them forthere uneltic perpose or any other things so product based file will availble in s3 bucket so i will 
+consume them s3 event in the  lambda which will trigger the step fuctions which will insert the data to dynamicdb and similarly inventing and priceing data will be availble in the
+consis streams by the other tam so i consume the consis stream to trigger lambda which inten to trigger the step fuctions inside stepfuctions i have writen a logic such a way that
+it will pass those consis streams and insert the data to dynamodb so know all entites are avalible in the dyanamodb so know i will quary the dynamodb for that particurar partience 
+key with particene key i have three entites so i will pass them and include evarything into one json file using python language know i upload to s3 bucket.
+
+Int:)what is do you mean get the data from s3 according to dynamicdb is that like saphase you want to quary some data are going into put dynamodb or 
+
+Bava:)if data is available in s3 bucket same data will avalible in the dynamodb that is duplicate so in that synario we do not want to insert in to dynamodb but our case is comination of three
+entites those three entites are available in the different sources one is in s3 bucket other 2 are in the cansis streams to make it genric or to make it available in the sam eflatform
+we are inserting into dynamodb so in dynamodb while inserting we are adding partience key and short key for the respective records so for the same partience key we have three records
+one is for priceing the data, other one is inverting the data and other is for product the data, so while pairing the dynamodb!
+
+Int:)You mean that whole record pass into dynamodb?
+
+Bava:) Yes
+
+Int:) If you have 12GB data on s3 you are going upload the 12gb data to dynamodb?
+
+Bava:) Yeah but we will compress it we take respective parameters like partience key entite name when it was inserted those are the basic 
