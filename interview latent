@@ -43,4 +43,21 @@ Int:) So you have lambda like lambda setpfuctons?
 
 Bava:) YEs
 
-Int :) so what perpose uor using this term
+Int :) so what perpose your using this terms proservice?
+
+Bava:) Restful service you said
+
+Int:) lambda and step functions u used right what is the perpose of using these services in your projects?
+
+Bava:) So lambda is serveless service we donot need to concentrate the on the how memory we need how much ram or size we need we can concentrate only logic of our code we do not need 
+concentrate on the infrastructure and stepfunction we need architrate the AWS serviceslike if you have any dependency on the particular lambda fuction we can use stepfunction 
+to call one lambda functions after completing another lambda function or we can call glue jobs as well in middle if you want.
+
+Int:) How did you know lambda is third party making service?
+
+Bava:) so we need to install the librarys in our local and zip itand we will upload that zip file to AWS lambdas layers so that we can use that layer as any other lambda as well
+if requied .
+
+Int:) have you restart any version on lambda?
+
+Bava:) Yes, so versioning like a 1a
