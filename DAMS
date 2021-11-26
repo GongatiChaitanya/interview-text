@@ -1,0 +1,144 @@
+1:) What is digital asset management?
+ANS:) A digital asset management solution is a software and systems solution that provides a systematic approach to efficiently storing, organizing, managing, retrieving, and 
+distributing an organization’s digital assets. Digital Asset Management (DAM) can be used to refer to both a business process and a form of information management technology, or
+a digital asset management system. DAM functionality helps many organizations create a centralized place where they can access their media assets.
+
+The digital asset is a key component of the DAM process. It is any file type of value that is owned by an enterprise or individual, comes in a digital format, is searchable via
+metadata, and includes access and usage rights. There are many types of digital assets, including but not limited to:
+
+Documents
+Images
+Audio content
+Video
+Animations
+Media files
+Graphics
+Presentations
+Any digital media that includes the right to use
+A DAM solution streamlines asset management and optimizes the production of rich media, particularly within sales and marketing organizations, by creating a centralized 
+management system for digital assets. It enables brand consistency through automatic asset updates and reinforcement of brand guidelines, providing a single source of truth 
+within businesses and a more consistent user experience to external audiences. Modern digital content management teams and marketers also rely on DAM to repurpose content,
+reducing unnecessary production costs and duplicate workstreams with its invaluable search features. Given the high visibility of brand assets and marketing assets through 
+digital channels, like social media, it’s important for brands to remain consistent in imagery and messaging to build brand authority and generate business growth. As a result,
+it’s no surprise that digital asset management platforms are becoming critical components of digital transformation efforts.
+
+
+2:) How DAM software works ?
+ANS:) Several steps are involved in the use of a DAM solution:
+
+  Creating the asset: Standardized templates and file formats prepares digital files for encoding even before they are created. This standardization improves the ease of document
+search and retrieval.
+Encoding and Indexing: To simplify the search for assets, metadata enables the identification of digital content through attributes such as asset type (e.g. whitepaper), version
+(e.g. new), media type (e.g. video), and technology used (e.g. Photoshop, etc.). These identifiers create an index, grouping assets that have common tags to improve searchability.
+Workflows: This indexing can then be leveraged for rule-driven workflows, enabling task and process automation.
+Version control: Version control becomes increasingly important to automate workflows, as it ensures that the latest, most up-to-date asset is being utilized within existing one.
+As new workflows are established, it also ensures that only the most current version is accessed and carried forward for review and use.
+Governance through permissions: Governance through permissions ensures that only those who have been granted access are able to use the asset in the manner in which it was assigned 
+to them. This capability protects organizational assets from theft, accidental corruption, or erasure.
+Auditing: An audit should be conducted internally to evaluate the effectiveness of DAM and identify areas of improvement. Likewise, regulatory bodies may audit a DAM solution to
+ensure an organization’s technology and processes comply with regulations. Both types of audits occur regularly in highly regulated industries such as finance and healthcare.
+A DAM solution can be implemented on-premises, in the cloud, or in a hybrid topology. Cloud-based asset storage, management and delivery can be a cost-effective, secure, 
+scalable, and flexible option for an organization.
+
+
+3:) The benefits of DAM !
+ANS:) Reduction of production costs and better resource allocation. The centralization of assets within a DAM enables organizations to find and reuse assets, reducing production costs
+and duplicate workstreams. Reduced costs encourage the allocation of resources in other areas of the business. The resulting efficiency gains help to bring assets and solutions 
+to the market faster.
+More organizational transparency. Since a DAM provides users with a clear, comprehensive view of digital assets, this has implications around content planning and execution. It 
+can increase collaboration across various stakeholders or introduce more impactful workstreams through the elimination of redundant projects.
+Increased conversion and customer retention. When businesses organize content appropriately based on the user’s stage of the buyer journey, they can serve content and marketing 
+materials at the right time for their target audiences. DAM enables organizations to personalize the customer experience, establishing and nurturing stronger relationships whic
+h moves potential customers and existing customers along the buying cycle faster and more effectively.
+Brand Consistency. DAM helps to ensure that messaging, positioning, visual representation, and other means of brand adherence are consistent. With DAM, functional areas and 
+business units can re-use creative files and other assets to gain efficiencies and present a single truth to the market.
+Governance and compliance. Licenses, legal documentation, archives, and other assets can play key roles in meeting industry-driven or governmental regulatory compliance demands.
+The ability to organize and rapidly retrieve these materials can save organizations time and money, as well as mitigate the disruption of core business processes.
+
+
+4:) The history and future of DAM !
+ANS:)The emergence of desktop publishing in the late 1980s enabled printers, publishers and advertisers to digitize text, graphics and photography. Too big for most internal hard 
+drives, these files were transferred to external media with simple metadata labels. They were placed in simple, hierarchical files and folders.
+
+In 1992, Canto Software released Cumulus — one of the first DAM systems. It was an on-premises, standalone solution, featuring thumbnail previewing, metadata indexing and search
+capabilities. While early DAM solutions made assets easy to find, verify, and retrieve, files were still not easy to share.
+
+By the early 2000s, server-based DAM enabled file-sharing over the Internet. Shortly thereafter, cloud storage offered another way to store, manage and distribute digital assets.
+
+DAM quickly evolved into integrated libraries able to deliver content to a variety of devices, systems, and repositories. Application programming interfaces (APIs) enabled assets 
+to plug into different applications and meet specific requirements quickly and efficiently.
+
+Now it is common for AI capabilities to be embedded into DAM — intelligently tagging and cross-referencing assets, including video recognition and voice recognition. IBM Watson 
+Video Enrichment can analyze video streams using deep learning technologies while the IBM Blockchain Platform ensures greater DAM security. Using machine learning, DAM systems can
+anticipate content needs and make recommendations to users. With these marketing tasks being performed very quickly, often within minutes or less, organizations can make adjustments
+in near-real time to gain a competitive advantage.
+
+
+5:) What to look for in a DAM solution ?
+ANS:)When looking at DAM platforms, it is important to evaluate whether the solutions you select provide capabilities that will help you implement a successful solution to support your 
+needs today and beyond. A successful DAM solution will provide the following capabilities:
+Support asset lifecycle and role-based permissions: Your DAM solution should enable you to manage your digital assets from idea through conception and throughout their lifecycles.
+It should also provide access rights and permissions with the granularity that you need to preserve the integrity of your assets.
+Integration: Your DAM solution should integrate with the solutions that you have in place today, such as asset creation and distribution, and any systems you plan to add in the future.
+Bidirectional flexibility: A flexible, agile DAM solution will provide the flexibility to search for assets in any direction. Bidirectional flexibility enables you to search metadata, 
+such as brand, to find an asset, or search specific assets to find metadata. This capability supports the search and repurposing of assets by other functional groups within an organization.
+Import and export capability: Your DAM solution should not create an isolated island of data. Your ideal solution should include the ability to share digital assets as well as 
+search results and other data.
+Stable storage and transfer infrastructure: The DAM solution you choose is equally as important as how and where the assets are stored, and the ability to transfer the assets
+wherever they are needed. Whether you choose on premises software-defined storage or cloud-based storage, consider the reliability, flexibility, scalability, performance, and
+recoverability to protect your assets.
+File transfer efficiency: Speed and efficiency of file transfer are important because they directly affect your speed of business. The ability to share and use the assets when
+and where you need them will help to define the effectiveness of the solution that you choose.
+
+
+6:) IBM and DAM
+DAM helps organizations across the globe maintain the access rights, control and integrity of their digital assets for many purposes. Implementing DAM as a centralized holistic
+solution connected with corporate and functional strategies can provide a more consistent, more compelling customer experience. According to Forrester, “More than 2/3 of 
+companies want to deliver their content more efficiently. Successful firms now make DAM a part of their broader digital experience and content strategies, not a point solution.” 1
+Find out more about IBM Aspera on Cloud, a hosted service that enables you to quickly and reliably move and share your files and data sets of any size and type across a hybrid 
+cloud environment. With IBM Aspera Connect, perform high-speed, browser-based file transfers to and from IBM Aspera clients and web applications. In addition, using IBM Aspera
+FASP High-Speed Transport for bulk data provides an optimal alternative to traditional TCP-based transport. IBM Aspera offers a fast, reliable and efficient DAM solution to 
+serve your asset management needs.
+
+
+7:)Use cases
+DAM is used across industries anywhere digital assets are involved. Here are two examples of the use of DAM:
+
+Patent offices
+Patent offices typically manage large volumes of digital assets in various stages of completion. As updates are made through the asset’s lifecycle, transferability, version control,
+and access rights features are critical for maintenance. Other features like search functionality also enables processes within patent offices to scale effectively. 
+
+Technology companies
+Technology companies use DAM in many different departments, often across multiple locations. DAM centralizes the assets for access and use. Functional areas within an 
+organization will use DAM for different purposes. Some examples include:
+
+HR uses DAM to manage employee records, benefit subscription and status, hiring requisitions, holiday and vacation requests, and payroll receipts.
+Procurement uses DAM to store preferred vendor contact details, invoices, and specifications.
+Development teams uses DAM to store proprietary product design and development plans, planning materials, and images.
+Sales and marketing teams use DAM for brand management, and to maintain assets created and used across the organization. 
+Many constituents across these organizations will need to access, use, edit and track the assets, making access permissions critically important. These permissions
+could be based on business unit, functional department and role. They may restrict access of some assets to internal employees. Permissions may also extend access of
+other assets to external constituents such as partners or customers. Think logos and engagement proposals that can help support partnership and ecommerce initiatives.
+
+
+8:) Digital asset management solutions
+IBM Cloud Object Storage
+Store practically limitless amounts of data, simply and cost effectively.
+
+Learn more about Cloud Object Storage 
+IBM Aspera on Cloud
+A hosted service to quickly and reliably move and share your files and data sets of any size and type across a hybrid cloud environment.
+
+Discover the benefits of Aspera on Cloud 
+IBM Aspera Connect
+Enable high-speed, browser-based file transfers to and from IBM Aspera clients and web applications.
+
+Optimize your file transfers 
+
+
+9:)  Resources
+Digital Asset
+In this digital world, fast and reliable movement of digital data, including massive sizes over global distances, is becoming vital to business success across virtually every
+industry. In this paper we describe the alternative approaches to “accelerating” file-based transfers – both commercial and academic – in terms of bandwidth utilization,
+network efficiency, and transfer time, and compare their performance and actual bandwidth cost to Aspera FASP.
+
